@@ -1,0 +1,51 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+  border-radius: 10px;
+  width: 45%;
+}
+
+/* Write CSS code here. */
+.cardview {
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-1 {
+    width: 100%;
+  }
+  .card-2 {
+    width: 100%;
+  }
+  .card-3 {
+    width: 100%;
+  }
+  .card-4 {
+    width: 100%;
+  }
+}
+
+.card-img {
+  margin-left: 70%;
+}
